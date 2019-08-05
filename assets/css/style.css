@@ -1,0 +1,76 @@
+button,
+div,
+form,
+input {
+    margin: 10px;
+}
+
+body {
+    /* Full height */
+    height: 100%;
+    /* Full width */
+    width: 100%;
+    /* Background image */
+    background: url("../images/16313.jpg") no-repeat center center fixed;
+    /* Center and scale the image nicely */
+    background-size: cover;
+}
+
+button {
+    background-color: transparent;
+    border-color: greenyellow;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#add-animal {
+    background-color: transparent;
+    border-color: greenyellow;
+    border-style: double;
+    border-width: 3px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Style text to make it readable from background */
+
+h4,
+p {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Style credit text for photo used as background image */
+
+#credit {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 16px;
+    padding-right: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* displayGiphy styling */
+
+.displayGiphy {
+    max-width: 500px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: box-shadow .1s;
+}
+
+
+/* Hover effects */
+
+.displayGiphy:hover {
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    transform: translate(1px, 5px);
+    cursor: pointer;
+    transition: box-shadow .1s, transform 1s;
+}
